@@ -1,0 +1,117 @@
+.h1centered {
+    position: absolute;
+    top: 35%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    --animate-duration: 2s; 
+    font-size: 60px;
+  }
+
+.h2centered {
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    --animate-duration: 2s; 
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+  }
+
+.h3centered {
+    position: absolute;
+    top: 57%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    --animate-duration: 2s; 
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.image img{
+    width: 100%; 
+    height: 717px; 
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* --------------------------------------------------- */
+
+@media (min-width: 279px) and (max-width: 740px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    .image img{
+        width: 100%; 
+        height: 666px; 
+    }
+    .h1centered{
+        font-size: 40px;
+        top: 38%;
+    }
+    .h2centered{
+        margin: 30px 0px;
+        font-size: 23px;
+    }
+    .h3centered{
+        font-size: 14px;
+        margin: 0px 0px;
+        left: 54.5%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px){
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    .image img{
+        width: 100%; 
+        height: 1020px; 
+    }
+    .h1centered{
+        font-size: 60px;
+        top: 37%;
+    }
+    .h2centered{
+        margin: 30px 0px 0px 0px;
+        font-size: 40px;
+    }
+    .h3centered{
+        font-size: 25px;
+        margin: 0px 0px;
+        left: 56%;
+        top: 56%;
+    }
+  }
+  
+    @media (min-width: 1024px) and (max-width: 1366px){
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .image img{
+            width: 100%; 
+            height: 1364px; 
+        }
+        .h1centered{
+            font-size: 70px;
+            top: 37%;
+        }
+        .h2centered{
+            margin: 30px 0px 0px 0px;
+            font-size: 60px;
+        }
+        .h3centered{
+            font-size: 35px;
+            margin: 0px 0px;
+            left: 55.5%;
+            top: 56%;
+        }
+    }
