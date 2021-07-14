@@ -42,7 +42,7 @@ body{
 
 /* --------------------------------------------------- */
 
-@media (min-width: 279px) and (max-width: 740px) {
+@media (min-width: 279px) and (max-width: 767px) {
     body{
         margin: 0%;
         padding: 0%;
@@ -63,7 +63,7 @@ body{
         font-size: 14px;
         margin: 0px 0px;
         left: 54.5%;
-        top: 57%;
+        top: 55%;
     }
   }
   
